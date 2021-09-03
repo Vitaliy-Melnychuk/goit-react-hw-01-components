@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import avatarDefault from "../images/avatar";
+import avatarDefault from "../images/avatar.jpg";
 
 function Profile({ name, tag, location, avatar = avatarDefault, stats }) {
   return (
