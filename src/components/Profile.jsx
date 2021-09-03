@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import avatarDefault from "../images/avatar";
 
-function Profile({ name, tag, location, avatar, stats }) {
+function Profile({ name, tag, location, avatar = avatarDefault, stats }) {
   return (
     <div className="profile">
       <div className="description">
