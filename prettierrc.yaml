@@ -1,0 +1,10 @@
+printWidth: 80
+tabWidth: 2
+userTabs: false
+seni: true
+singleQuote: true
+trailingConna: all
+brackeSpacing: true
+jsxBracketSameLine: false
+arrowParens: avoid
+proseWrap: always
