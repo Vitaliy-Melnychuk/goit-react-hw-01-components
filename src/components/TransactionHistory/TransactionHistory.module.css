@@ -1,0 +1,42 @@
+.transaction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: #e7ecf2;
+}
+
+.transactionWrapper {
+  padding: 40px 45px;
+  background-color: white;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.transactionHistory {
+  border-collapse: collapse;
+}
+
+.theadTransaction th,
+.tbodyTransaction td {
+  text-align: center;
+  border: 2px solid #e4e9f0;
+  min-width: 300px;
+  padding: 15px;
+}
+
+.theadTransaction th {
+  background-color: #00bcd5;
+  color: white;
+  text-transform: uppercase;
+}
+
+.tbodyTransaction td {
+  text-transform: capitalize;
+}
+
+.tbodyTransaction tr:nth-child(2n) {
+  background-color: #ecf1f4;
+}
